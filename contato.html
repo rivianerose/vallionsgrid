@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="fotos/logotech.jpg" type="image/x-icon">
+    <title> : Vallions Tech :</title>
+
+    <style>
+        main {
+            background-color: white;
+        }
+        .formulario {
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            background-color: rgb(233, 233, 233);
+            margin: 50px 20px 10px 500px; 
+            padding-left: 0;
+            width: 500px;
+            
+        }
+      .formulario > h1 {
+            font-size: 50px;
+        }
+    </style>
+</head>
+     <body>
+    <header class="cabecalho">
+        <div class="titulo">
+        <img src="fotos/logotech.jpg" alt="some text">
+        <h1> Vallions Tech </h1>
+        <h2> Sofisticado. Moderno. Tecnológico. </h2>
+        </div>
+
+        <nav id="menu">
+            <ul>
+                <li> <a href="./index.html">Vallions Tech </a></li> 
+                <li> <a href="./produtos.html"> Produtos </a></li>
+                <li> <a href="./tecnologia.html">Tecnologia </a></li>
+                <li> <a href="./sobreaempresa.html"> Sobre a Empresa </a></li>
+                <li> <a href="./quemsomos.html">Quem somos </a></li>
+                <li> <a href="./contato.html">Contato </a></li>
+            </ul>
+            </nav>
+        </header>
+
+        <main> 
+            <form class= "formulario" action="action_page.php" autocomplete="off" method="GET" target="_blank">
+            <fieldset>
+                <h1>Deixe seu contato:</h1>
+                 <label for="name">Nome</label><br /> 
+                 <input name="name" type="text" value="Riviane" /> <br /> 
+                 <input checked="checked" name="sex" type="radio" value="male" /> Masculino <br /> 
+                 <input name="sex" type="radio" value="female" /> Feminino <br />
+                  <textarea cols="30" rows="2">Dúvidas?</textarea><br /><select>
+                <option selected="selected" value="1">Sim</option>
+                <option value="2">N&atilde;o</option>
+                </select><br /> <input name="democheckbox" type="checkbox" value="1" /> Verifica&ccedil;&atilde;o<br /> <button type="submit" value="Submit">Enviar</button>
+            </fieldset>
+            </form>
+        </main>
+        <footer> 
+            <div class="contato">
+                <div class= "contato2">
+                <h2> CONTATO</h2>
+                <h3 class="arrumar"> Comercial</h3>
+                <p>@vallionstech</p>
+                <h3 class="arrumar"> Suporte:</h3>
+                <p>vallionstech@gmail.com</p>
+                </div>
+                
+             <h4> Todos os direitos são reservados &copy; </h4>
+    
+              <ul>
+                <li><a class="imgcontato1" href="mailto:roseriviane@gmail.com"> <img class="imgcontato" src="./fotos/o-email.png"> </a></li>
+                <li><a class="imgcontato1" href="https://wa.me/5513996547656"><img  class="imgcontato" src="./fotos/whatsapp.png"></a></li>
+                <li><a class="imgcontato1" href="https://www.facebook.com/"> <img class="imgcontato" src= "./fotos/facebook.png"> </a></li>
+              </ul>
+              </div> 
+            
+    
+        </footer>
+        </body>
+        </html>
